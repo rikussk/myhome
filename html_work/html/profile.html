@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>RIKU official website</title>
+    <meta name="description" content="自己紹介ページ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href=""> <!--icon画像-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-title"><a href="profile.html"><img src="img/logo.svg" alt="RIKU"></a></h1>
+      <nav>                                                    <!--写真リンク-->
+        <ul>
+          <li><a href="#profile">profile</a></li>
+          <li><a href="#Morioka">Morioka</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
+          <img src="img/mainvisual-pc.jpg" alt="テキストテキストテキスト">
+        </picture>
+      </div>
+
+      <section id="profile" class="wrapper">
+        <h2 class="sec-title">profile</h2>
+        <ul>
+          <li></li>
+        </ul>
+        <p>
+          テキスト
+        </p>
+      </section>
+      <section id="Morioka" class="wrapper">  <!--盛岡の魅力書いて-->
+        <h2 class="section-title">Morioka</h2>
+        <ul>
+          <li>
+            <img src="img/bicycle1.jpg"//画像リンク alt="テキストテキストテキスト">  <!--https://code-jump.com/demo/html/profile/#bicycle--> <!--参考サイト-->
+            <h3 class="content-title">タイトルタイトル</h3> <!--　↑　写真の名前-->
+            <p>テキスト</p>
+          </li>
+          <li>
+            <img src="img/bicycle2.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+          <li>
+            <img src="img/bicycle3.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+        </ul>
+      </section>
+
+      
+    </main>
+
+    <footer class="footer">
+        <nav class="site-menu">
+            <ul>
+                <li><a href="./profile.html">PROFILE</a></li>
+                <li><a href="./favorite01.html">FAVORITE1</a></li>
+                <li><a href="./iit.html">IIT</a></li>
+            </ul>
+        </nav>
+        <a class="footer-logo" href="./index.html">
+            <img src="./images/common/logo-footer.png" alt="KISSA"> <!--いじめられ画像-->
+        </a>
+        
+        <p class="copyright"><small>&copy;RIKU</small></p>
+    </footer>
+
+  </body>
+
+</html>
